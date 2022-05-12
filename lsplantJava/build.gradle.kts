@@ -43,6 +43,6 @@ android {
 }
 
 dependencies {
-    implementation(project(":lsplant"))
+    implementation ("org.lsposed.lsplant:lsplant:4.0")
     implementation("io.github.vvb2060.ndk:dobby:1.2")
 }

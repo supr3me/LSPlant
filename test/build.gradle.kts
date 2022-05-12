@@ -47,9 +47,9 @@ android {
 }
 
 dependencies {
-    implementation(project(":lsplant"))
+//    implementation(project(":lsplant"))
     implementation("io.github.vvb2060.ndk:dobby:1.2")
-
+    implementation ("org.lsposed.lsplant:lsplant:4.0")
     androidTestImplementation("androidx.test.ext:junit:1.1.3")
     androidTestImplementation("androidx.test:runner:1.4.0")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.4.0")
