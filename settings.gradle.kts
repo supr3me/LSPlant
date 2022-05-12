@@ -22,3 +22,5 @@ include(
     ":lsplant",
     ":test",
 )
+include(":lsplantJava")
+include(":myapphooker")
